@@ -4,29 +4,29 @@ import { Waves, Camera, Volume2, Smartphone } from "lucide-react";
 const pillars = [
   {
     icon: Waves,
-    title: "Ultrasonic Detection",
-    desc: "HC-SR04 sensor pings the environment, flagging obstacles up to 4 meters away.",
+    title: "Goggles — Sense",
+    desc: "HC-SR04 ultrasonic sensor mounted at the center of the goggles detects obstacles up to 4 meters ahead.",
     color: "bg-indigo-600",
     bg: "bg-indigo-50 border-indigo-100",
   },
   {
     icon: Camera,
-    title: "Computer Vision",
-    desc: "Camera module runs TensorFlow Lite for object and text recognition on-device.",
+    title: "Goggles — See",
+    desc: "Camera module on the goggles runs TensorFlow Lite to recognize objects, people, and text in real time.",
     color: "bg-violet-600",
     bg: "bg-violet-50 border-violet-100",
   },
   {
     icon: Volume2,
-    title: "Instant Voice Alerts",
-    desc: "eSpeak converts findings into spoken warnings — 'Obstacle 2m ahead on the left.'",
+    title: "Processing Unit — Speak",
+    desc: "Raspberry Pi 4 processes all sensor data and delivers instant voice alerts — 'Obstacle 2m on the left.'",
     color: "bg-orange-500",
     bg: "bg-orange-50 border-orange-100",
   },
   {
     icon: Smartphone,
-    title: "Mobile Integration",
-    desc: "Bluetooth sync with a companion app for GPS routing and emergency SOS.",
+    title: "Processing Unit — Connect",
+    desc: "Bluetooth and WiFi sync with a companion mobile app for GPS navigation and emergency SOS.",
     color: "bg-teal-500",
     bg: "bg-teal-50 border-teal-100",
   },
@@ -54,7 +54,7 @@ export function Plan() {
             How <span className="text-indigo-600">SensePath</span> will work.
           </h2>
           <p className="text-lg text-slate-500 max-w-xl mb-12">
-            Four core technology pillars that come together in one compact, wearable device.
+            The goggles handle sensing and seeing. The processing unit handles thinking and speaking. Four functions, two devices, one seamless experience.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4">
