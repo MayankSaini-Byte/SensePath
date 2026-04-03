@@ -1,0 +1,92 @@
+Create a modern, responsive website for a college project named "SensePath – Real-Time Navigation Assistance for the Visually Impaired".
+
+Tech stack:
+- HTML
+- CSS
+- JavaScript (basic)
+- No backend required
+- Clean UI, professional and minimal design
+
+Pages/Sections required:
+
+1. Hero Section:
+- Project Title: SensePath
+- Tagline: "Real-Time Navigation Assistance for the Visually Impaired"
+- Short intro
+- Add a button: "Learn More"
+
+2. About Section:
+- Explain what SensePath is
+- Mention it uses sensors, camera, and AI for navigation
+- Focus on simplicity, affordability, and independence
+
+3. Problem Statement:
+- Challenges faced by visually impaired people
+- Navigation difficulty, object detection, dependency on others
+
+4. Objectives:
+- Real-time navigation
+- Audio-based feedback
+- Affordable solution
+- Reduce dependency
+
+5. Proposed Solution:
+- Ultrasonic sensors for obstacle detection
+- Camera for object recognition
+- Raspberry Pi as processor
+- Voice alerts and vibration feedback
+
+6. Components Section:
+Display in cards/grid:
+- Raspberry Pi 4
+- Camera Module
+- Ultrasonic Sensor
+- GPS Module
+- Headphones
+- Power Bank
+
+7. How It Works:
+Step-by-step flow:
+- Input → Processing → Output → Mobile Integration
+
+8. Expected Outcomes:
+- Improved mobility
+- Independence
+- Safety
+- Affordable tech
+
+9. Future Scope:
+- AI integration
+- Smart glasses / wearable
+- Mobile app features
+- Voice commands
+
+10. Team Section:
+Show names:
+- Raja
+- Devansh
+- Mayank
+- Kamlesh
+
+11. Footer:
+- Project Guide: Dr. Suresh Kumar Gawre
+- Institute: MANIT Bhopal
+- Year: 2025-26
+
+Design requirements:
+- Use modern fonts (Google Fonts)
+- Smooth scrolling
+- Soft color palette (blue + white or dark theme)
+- Hover effects on cards
+- Mobile responsive
+
+Extras:
+- Add simple icons (use Font Awesome)
+- Add animations (fade-in on scroll)
+- Keep code clean and well-structured
+
+Output:
+- Provide complete code in separate files:
+  index.html
+  style.css
+  script.js
